@@ -1,6 +1,6 @@
 const Button = (props)=>{
     const {colorText,backgroundText,children} = props
-    return <button style={{color:colorText,background:backgroundText}}> {children} </button>
+    return <button onClick={props.accion} style={{color:colorText,background:backgroundText}}> {children} </button>
 
 }
 
