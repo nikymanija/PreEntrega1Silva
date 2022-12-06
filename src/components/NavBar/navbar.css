@@ -6,6 +6,7 @@
     border: 0;
 }
  */
+ 
  .navegador{
     width: 100%;    
     height: 80px;
@@ -32,9 +33,14 @@
     }
 
     .navegador button {
-        border: 0;
+      
+        border: 10px;
         font-size: 20px;
         height: 80px;
         padding: 15px;
 
+    }
+    .navegador a{
+        text-decoration: none;
+        
     }
